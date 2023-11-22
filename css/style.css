@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: rgba(225, 77, 152, 0.7); */
+    background: linear-gradient( #000,#d1067da9);
+    direction: rtl;
+
+}
+ .rectangle{
+    position: absolute;
+    background: linear-gradient(180deg, rgba(248, 204, 204, 0.692) 0%,#fd49afea 100%);
+    width: 100%;
+    height:130vh;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:50px 40px ;
+    width: 1280px;
+    height: 700px;
+    border: 1px solid #ffffff;
+
+}
+.elipse .cir-1{
+    position: absolute;
+    width: 160px;
+    height: 150px;
+    border-radius: 50%;
+    background:linear-gradient(194.04deg,rgba(252, 234, 251, 0.945) 10%,rgba(148, 3, 97, 0.671) 90.44%);
+    z-index: -1;
+    margin-right: 340px !important;
+    margin-top: 18px;
+
+}
+.elipse .cir-2{
+    position: absolute;
+    width: 280px;
+    height: 270px;
+    border-radius: 50%;
+    background: linear-gradient(194.04deg,rgba(245, 189, 243, 0.945) 10%,rgba(148, 3, 97, 0.671) 90.44%);
+    /* z-index: 130; */
+    margin-right: 355px !important;
+    margin-top: 430px;
+
+}
+
+.elipse .cir-3{
+    position: absolute;
+    width: 160px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(194.04deg, rgba(238, 72, 180, 0.49) 14.44%, rgba(152, 24, 148, 0) 90%);
+    /* z-index: 130; */
+    margin-right: -224px !important;
+    margin-top: 280px;
+
+}
+.elipse .cir-4{
+    position: absolute;
+    width: 160px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(194.04deg, rgba(238, 72, 180, 0.49) 14.44%, rgba(152, 24, 148, 0) 90%);
+    /* z-index: 130; */
+    margin-right: -534px !important;
+    margin-top: 440px;
+
+}
+.elipse .cir-5{
+    position: absolute;
+    width: 235px;
+    height: 224px;
+    border-radius: 50%;
+    background: rgba(0, 186, 198, 0.2);
+    filter: blur(100px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: 2;
+    margin-right: -554px !important;
+    margin-top: 400px;
+
+}
+.elipse .cir-5{
+    position: absolute;
+    width: 235px;
+    height: 224px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(1, 235, 252, 0.904) 0%, rgba(78, 146, 249, 0.507) 51.09%, rgba(0, 186, 198, 0.174) 100%);
+    filter: blur(100px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    /* z-index: 130; */
+    margin-right: -430px !important;
+    margin-top: 200px;
+
+}
+.elipse .cir-6{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: #FD4141;
+    filter: blur(100px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-right:380px;
+    margin-top: 500px;
+    /* z-index: -1; */
+}
+.elipse .cir-7{
+    position: absolute;
+    width: 235px;
+    height: 200px;
+    border-radius: 50%;
+    background: #FD4141;
+    filter: blur(100px);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin-right:-550px;
+    margin-top: 150px;
+    overflow: hidden;
+
+}
+.elipse .cir-8{
+    position: relative;
+    width: 235px;
+    height: 224px;
+    /* background: url('../assets/images/Ellipse 21.png'); */
+    border-radius: 50%;
+    background: #FD4141;
+    filter: blur(100px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-right:-600px;
+    margin-top: 470px;
+
+}
+.square {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: linear-gradient(45.04deg, rgba(253, 123, 129, 0) 34.44%, rgba(236, 38, 48, 0.678) 90%);
+    margin-right:650px;
+    margin-top: 140px;
+    z-index: -1;
+
+}
+
+.navbar{
+    display: flex;
+}
+
+.left-col{
+    flex-basis: 20%;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: left;
+    /* text-align: left !important; */
+    font-family: 'Tajawal';
+}
+.left-col ul{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: start;
+    margin-right: 380px!important;
+}
+.left-col ul li{
+    list-style: none;
+}
+.left-col ul li:nth-child(2){
+    width: 120px;
+    height: 40px;
+    padding: 12px 12px;
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px !important;
+    margin-left: 10px !important;
+    border: 1px solid #fcfbfb;
+    border-radius: 5px;
+}
+.left-col ul li:nth-child(1){
+    width: 100px;
+    height: 33px;
+    padding: 8px 5px;
+    margin-top: 12px;
+    font-size: 12px;
+    margin-top: 30px !important;
+    margin-left: 20px !important;
+    text-align: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+}
+.left-col ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.mid-col{
+    position:absolute;
+    flex-basis: 50%;
+    font-size: 16px;
+    margin-right: -200px !important;
+    /* justify-content: center; */
+}
+.mid-col ul {
+    display: flex;
+    font-family: 'Tajawal';
+  
+    /* margin-left:-200px; */
+    margin-top: 25px ;
+}
+.mid-col ul li {
+    list-style: none;
+    margin: 12px 15px ;
+}
+.mid-col ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+.mid-col ul li a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.right-col{
+    flex-basis: 20%;
+    position: absolute;
+    margin-right: -600px;
+}
+.right-col ul{
+    margin-top: 18px;
+    font-size: 28px;
+    font-family: 'Tajawal';
+    z-index: 4;
+}
+.right-col ul li{
+    list-style: none;
+    
+}
+.right-col ul li a{
+    color: #FFF;
+    text-decoration: none;
+    z-index: 2;
+    font-weight: 600;
+}
+
+
+.detail-content{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    z-index: 2;
+    top: 140px;
+    left: 80px;
+   
+}
+.left-col-cont{
+    position: relative;
+    flex-basis: 50%;
+     top: 60px;
+    left: -50px;
+}
+.left-col-cont .img {
+    margin-top: 70px !important;
+    margin-right: 350px !important;
+}
+.left-col-cont .img  img{
+    width: 380px;
+    height: 380px;
+}
+.left-col-cont ul {
+    display: flex !important;
+    margin-right: 320px;
+    margin-top: -25px !important;
+    font-family: 'Tajawal';
+}
+.left-col-cont ul li{
+    list-style: none;
+    margin: 20px 20px;
+    border-left: 2px solid #fff;
+    padding-left: 30px;
+    font-weight: 500;
+}
+.right-col-cont{
+    flex-basis: 50%;
+    margin-top: 150px !important;
+    margin-right: -80px !important;
+    font-family: 'Tajawal';
+    text-align: right;
+    right: 50px !important;
+}
+.right-col-cont p{
+    position: relative;
+    font-size: 50px !important;
+    padding-right: 170px;
+   font-weight: 600;
+}
+.right-col-cont ul{
+    margin-right: 300px;
+    margin-top: 50px;
+}
+.right-col-cont ul li a{
+    background: #fff;
+    padding: 10px 10px;
+    width: 156px;
+    height: 60px;
+    margin-right: -129px;
+    justify-content: right;
+    /* text-align: right; */
+}
+
+
+
+
+
+
+/* /--------------- end responsive-------------------- */

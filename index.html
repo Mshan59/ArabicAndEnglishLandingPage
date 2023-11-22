@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" dir="rtl">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Arabic UI</title>
+</head>
+<body >
+    <section class="rectangle">
+        <div class="container">
+            <header class="navbar">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="right-col">
+                    <ul class="Logo"><li><a href="#">  مدونة حلال</a></li></ul>
+                </div>
+                <div class="mid-col">
+                    <ul>
+                        <li><a href="#">مستقل</a></li>
+                        <li><a href="#">التصميم</a></li>
+                        <li><a href="#">تحفيز</a></li>
+                        <li><a href="#">الدورة التعليمية</a></li>
+                    </ul>
+                </div>
+                <div class="left-col">
+                    <ul>
+                        <li><a href="#">حاول مجانا</a></li>
+                        <li><a href="#">احصل على الرئيسي</a></li>
+                    </ul>
+                </div>
+            </header>
+        
+            <div class="elipse">
+                <span class="cir-1"></span>
+                <span class="cir-2"></span>
+                <span class="cir-3"></span>
+                <span class="cir-4"></span>
+                <span class="cir-5"></span>
+                <span class="cir-6"></span>
+                <span class="cir-7"></span>
+                <span class="cir-8"></span>
+                <span class="cir-9"></span>
+            </div>
+            <div class="square">
+                <span class="squ-1"></span>
+
+            </div>
+        </div>
+        <div class="detail-content">
+            <div class="right-col-cont">
+                <p>نحن نبني لك صفحة مدونة حلال.</p>
+                <p style="font-size: 13px !important; font-weight: 400;">  <br> يرغب زبوني في الحصول على الصورة المميزة من 
+                  . آخر مشاركة يتم استخدامها ديناميكيًا كصورة خلفية رئيسية</p>
+  
+                <ul>
+                  <li style="list-style: none;">
+                      <a href="#" style="color:#000; text-decoration: none;">حاول مجانا</a>
+                  </li> 
+              </ul>
+            </div>
+            <div class="left-col-cont">
+           
+            <div class="img">
+                <img src="./assets/images/Frame 451.png" alt="">
+            </div> 
+            <div class="ul">
+                <ul>
+                    <li>التصميم</li>
+                    <li>تحفيز</li>
+                    <li>التعليمية</li>
+                </ul>
+            </div> 
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+const navbar = document.querySelector('.navbar');
+
+hamburger.addEventListener('click', function() {
+    navbar.classList.toggle('active');
+});
+
+    </script>
+
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>

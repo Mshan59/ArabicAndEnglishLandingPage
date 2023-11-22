@@ -1,0 +1,81 @@
+/* Mobile-first responsive styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin-bottom: 4px;
+}
+
+.right-col, .mid-col, .left-col {
+    flex-basis: 33.33%;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Media query for tablets and above */
+@media (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .right-col, .mid-col, .left-col {
+        flex-basis: auto;
+        text-align: left;
+    }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 767px) {
+    .right-col, .mid-col, .left-col {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+}
